@@ -1712,6 +1712,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 1835897647}
   range: 100
+  hitpoints: 25
+--- !u!1 &1368156894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2671846528289144527, guid: d8d0e393d04a4174b97425b47a8786cb, type: 3}
+  m_PrefabInstance: {fileID: 2671846528191872208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1368156901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368156894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b642d320feca4a04da29f80214421c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 100
 --- !u!4 &1463884675 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b5290684820a94548bedb95083785116, type: 3}

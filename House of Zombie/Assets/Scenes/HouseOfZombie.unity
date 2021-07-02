@@ -1291,6 +1291,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 44884af1ac1d64d42902da40268ba120, type: 3}
   m_PrefabInstance: {fileID: 1041711818}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1044834391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8789028511618938940, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
+  m_PrefabInstance: {fileID: 1210300343}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1068617997 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 44884af1ac1d64d42902da40268ba120, type: 3}
@@ -1669,6 +1674,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8789028511618966556, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
 --- !u!1001 &1225249038
@@ -1828,6 +1837,7 @@ MonoBehaviour:
   range: 100
   hitpoints: 25
   muzzleFlash: {fileID: 145381923}
+  hitEffect: {fileID: 1044834391}
 --- !u!1 &1368156894 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2671846528289144527, guid: d8d0e393d04a4174b97425b47a8786cb, type: 3}

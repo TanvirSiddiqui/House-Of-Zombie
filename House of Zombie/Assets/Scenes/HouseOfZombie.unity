@@ -2605,6 +2605,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: b790758be71ceb64e962db5fa9900aed, type: 2}
+    - target: {fileID: 1629722395330704272, guid: d8d0e393d04a4174b97425b47a8786cb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3296277
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629722395330704272, guid: d8d0e393d04a4174b97425b47a8786cb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1868
+      objectReference: {fileID: 0}
     - target: {fileID: 2671846528289144527, guid: d8d0e393d04a4174b97425b47a8786cb, type: 3}
       propertyPath: m_Name
       value: Attack
@@ -2615,7 +2623,7 @@ PrefabInstance:
       objectReference: {fileID: 1248839824}
     - target: {fileID: 2671846528289144561, guid: d8d0e393d04a4174b97425b47a8786cb, type: 3}
       propertyPath: m_StoppingDistance
-      value: 1
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 2671846528289144565, guid: d8d0e393d04a4174b97425b47a8786cb, type: 3}
       propertyPath: m_RootOrder

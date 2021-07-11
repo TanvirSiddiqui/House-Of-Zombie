@@ -46,7 +46,6 @@ public class EnemyAI : MonoBehaviour
     private void AttackTarget()
     {
         GetComponent<Animator>().SetBool("Attack",true);
-        Debug.Log(name+" has eaten the "+target.name);
     }
     private void ChaseTarget()
     {

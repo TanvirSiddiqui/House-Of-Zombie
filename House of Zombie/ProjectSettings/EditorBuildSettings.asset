@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HouseOfZombie.unity
+    guid: c3868223f8c5e5146ad3799ddb6d1218
   m_configObjects: {}

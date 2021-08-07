@@ -15,11 +15,11 @@ E:/Unity3D projects/House-Of-Zombie/House of Zombie
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61246
+65112
 Successfully changed project path to: E:/Unity3D projects/House-Of-Zombie/House of Zombie
 E:/Unity3D projects/House-Of-Zombie/House of Zombie
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 199.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 202.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path E:/Unity Hub/Unity Versions/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,251 +35,469 @@ Initialize mono
 Mono path[0] = 'E:/Unity Hub/Unity Versions/Unity/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity Hub/Unity Versions/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity Hub/Unity Versions/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity Hub/Unity Versions/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000794 seconds.
+Registered in 0.029692 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.189 seconds
+- Completed reload, in  5.785 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002993 seconds.
+Registered in 0.080996 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.039 seconds
+- Completed reload, in  1.546 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 119.3 MB.
-System memory in use after: 119.1 MB.
+System memory in use after: 119.2 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3492.
-Total: 2.815900 ms (FindLiveObjects: 0.332900 ms CreateObjectMapping: 0.142400 ms MarkObjects: 2.060200 ms  DeleteObjects: 0.279500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Materials/PlatformMaterials.mat
-  artifactKey: Guid(3079a67cfb782f14f9b3be11522a5322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PlatformMaterials.mat using Guid(3079a67cfb782f14f9b3be11522a5322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c9aa0799cca3d6c07a48fa4aa09540') in 0.399715 seconds
-  Import took 0.520745 seconds .
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3494.
+Total: 2.407100 ms (FindLiveObjects: 0.328800 ms CreateObjectMapping: 0.214400 ms MarkObjects: 1.590300 ms  DeleteObjects: 0.272400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.961382 seconds.
-  path: Assets/Scripts/WeaponZoom.cs
-  artifactKey: Guid(d1cff48af64184d48b3bedf51797ad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WeaponZoom.cs using Guid(d1cff48af64184d48b3bedf51797ad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f458b03291396d5f2c8d88cc7c7e5b3c') in 0.207915 seconds
-  Import took 0.231534 seconds .
+  path: Assets/Asset Packs/Survival Carbine/Textures/Carbine_ODGreen.png
+  artifactKey: Guid(6d2ac20381c5065439d8bd91ededef34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Carbine_ODGreen.png using Guid(6d2ac20381c5065439d8bd91ededef34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08289f579b0cf1986688ea4dc664a040') in 0.303508 seconds
+  Import took 0.362447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Materials/Carbine_White.mat
+  artifactKey: Guid(25f311c6bbd46e0448befa180cda78ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Materials/Carbine_White.mat using Guid(25f311c6bbd46e0448befa180cda78ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c44b2ffc8a724f2b15072629792d6e') in 0.142875 seconds
+  Import took 0.163331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Carbine_Navy.png
+  artifactKey: Guid(5e5734761d78b674bb4e90a056f0f09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Carbine_Navy.png using Guid(5e5734761d78b674bb4e90a056f0f09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ff2520774fc254aa1c66e29c8e9093') in 0.041960 seconds
+  Import took 0.063155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000674 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Carbine_Tan.png
+  artifactKey: Guid(6dfcffc362d931e4dbbafb487c80dc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Carbine_Tan.png using Guid(6dfcffc362d931e4dbbafb487c80dc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d9167b376828bff58569a3cbf784b6') in 0.044377 seconds
+  Import took 0.059991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Carbine_White.png
+  artifactKey: Guid(0b00b9df07dc4e841beaa06c5f9d082e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Carbine_White.png using Guid(0b00b9df07dc4e841beaa06c5f9d082e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05beae35b72b348ed267250739057d5e') in 0.011681 seconds
+  Import took 0.016933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Prefabs/Characters/Enemy.prefab
+  artifactKey: Guid(d8d0e393d04a4174b97425b47a8786cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Enemy.prefab using Guid(d8d0e393d04a4174b97425b47a8786cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3654c47f8d32caab9b19c28516352eb7') in 0.125335 seconds
+  Import took 0.140901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga
+  artifactKey: Guid(6308da3d0ff986b42be3b0a6ea5b6fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga using Guid(6308da3d0ff986b42be3b0a6ea5b6fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d33325ff6396199016d659bb2f1eaad') in 0.145127 seconds
+  Import took 0.169377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Carbine_Metallic.png
+  artifactKey: Guid(481511ad822937f4dad3bcf97d546d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Carbine_Metallic.png using Guid(481511ad822937f4dad3bcf97d546d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877db5995940806550d5b936dff773b8') in 0.054128 seconds
+  Import took 0.059123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
+  artifactKey: Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab using Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f058692c9b9ece05adb4fa78b7c98309') in 0.116383 seconds
+  Import took 0.142616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001105 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Normal.tga
+  artifactKey: Guid(f0d8945c7972e4747aa776e16494fa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Normal.tga using Guid(f0d8945c7972e4747aa776e16494fa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edb513b0b69ef99ff3b7c259b22aa49') in 0.037036 seconds
+  Import took 0.052299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Materials/Carbine.mat
+  artifactKey: Guid(49858ecb46223404b8475b34c72be073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Materials/Carbine.mat using Guid(49858ecb46223404b8475b34c72be073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3433cf35cd7a4a063fb3485572c677') in 0.108270 seconds
+  Import took 0.128176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Carbine_Pink.png
+  artifactKey: Guid(1d780124ad5052b439d7a12305e8d130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Carbine_Pink.png using Guid(1d780124ad5052b439d7a12305e8d130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a13b58e3b6e3db6e128a2d23aed680') in 0.078055 seconds
+  Import took 0.084415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01.tga
+  artifactKey: Guid(c688b8230f338954e977969bd4457584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01.tga using Guid(c688b8230f338954e977969bd4457584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45d2a24c84de10b6fbc1d76b400572d') in 0.037011 seconds
+  Import took 0.041986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Meshes/Carbine.fbx
+  artifactKey: Guid(b5d3572f7b6bfd143b39ce51cf6bde2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Meshes/Carbine.fbx using Guid(b5d3572f7b6bfd143b39ce51cf6bde2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31814c0903d322d69b02026346a94b37') in 0.151401 seconds
+  Import took 0.171070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Carbine_Black.png
+  artifactKey: Guid(c7f43b9ad9fa04142803263434081426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Carbine_Black.png using Guid(c7f43b9ad9fa04142803263434081426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5057257458e902a18195a25886baa1') in 0.042092 seconds
+  Import took 0.060446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop.tga
+  artifactKey: Guid(ea60173ceac07334c91568c48cc765cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop.tga using Guid(ea60173ceac07334c91568c48cc765cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80134aed1499611f8377ca402b171e8c') in 0.062089 seconds
+  Import took 0.077223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02_Normal.tga
+  artifactKey: Guid(371fa5d370f67534696194100d17bfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02_Normal.tga using Guid(371fa5d370f67534696194100d17bfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d1b1e8348f45ed7f0594fa9399371f') in 0.037891 seconds
+  Import took 0.042396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Carbine_Orange.png
+  artifactKey: Guid(74b9a8358cfbf434ca5fc04f45648c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Alt Colors/Carbine_Orange.png using Guid(74b9a8358cfbf434ca5fc04f45648c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6bd4ea1b40c70e1355cb3a46d9a12c') in 0.040843 seconds
+  Import took 0.045740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga
+  artifactKey: Guid(ee07ea8cb1a00c844b4048d37dcfe712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga using Guid(ee07ea8cb1a00c844b4048d37dcfe712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d1fedf8ff8c302eb15dfd5b41b31ac') in 0.030726 seconds
+  Import took 0.034835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Prefabs/Characters/Player.prefab
+  artifactKey: Guid(c6453f8e1f814744d8b94e5a6d1f9942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Player.prefab using Guid(c6453f8e1f814744d8b94e5a6d1f9942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c63e87af77005b95ac499d691b2e3a4') in 0.052855 seconds
+  Import took 0.057433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga
+  artifactKey: Guid(55e2334423fefa34fb4916f6780413d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga using Guid(55e2334423fefa34fb4916f6780413d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90a6c3042fc27724546bb43a68d424d') in 0.019700 seconds
+  Import took 0.025032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Carbine.prefab
+  artifactKey: Guid(ada2587319194f542957a8c2ae277cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Carbine.prefab using Guid(ada2587319194f542957a8c2ae277cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa3904247250e7466bbfa2b091ad336') in 0.038527 seconds
+  Import took 0.057566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Carbine_Normal.png
+  artifactKey: Guid(21660a73d732908429f8534d93359905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Carbine_Normal.png using Guid(21660a73d732908429f8534d93359905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e671a410d71defe91a42bc7cd5b179e') in 0.038007 seconds
+  Import took 0.044803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.657091 seconds.
+  path: Assets/Prefabs/Weapons
+  artifactKey: Guid(f382c569d00204c4e983cce69a67ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons using Guid(f382c569d00204c4e983cce69a67ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a614be11d74c94e80a3956c5a61068') in 0.008130 seconds
+  Import took 0.014008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.923192 seconds.
+  path: Assets/Prefabs/Weapons/Carbine.prefab
+  artifactKey: Guid(ada2587319194f542957a8c2ae277cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Carbine.prefab using Guid(ada2587319194f542957a8c2ae277cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaf342cac9938bcc70a4f00f179f7cc') in 0.037846 seconds
+  Import took 0.060859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.177039 seconds.
+  path: Assets/Prefabs/Weapons/Carbine.prefab
+  artifactKey: Guid(ada2587319194f542957a8c2ae277cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Carbine.prefab using Guid(ada2587319194f542957a8c2ae277cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b0432a9a86d6d8dff6633388de27f2') in 0.017990 seconds
+  Import took 0.055899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.862652 seconds.
+  path: Assets/Prefabs/Weapons/Carbine.prefab
+  artifactKey: Guid(ada2587319194f542957a8c2ae277cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Carbine.prefab using Guid(ada2587319194f542957a8c2ae277cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f3044a5695e79a0a7106466706cc7c') in 0.026179 seconds
+  Import took 0.052533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.112711 seconds.
+  path: Assets/Prefabs/Weapons/Carbine 1.prefab
+  artifactKey: Guid(cc8f1e3cfe6646148a24b4e50ded25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Carbine 1.prefab using Guid(cc8f1e3cfe6646148a24b4e50ded25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e7b3330ff77907cc1b9ed0af8210b3') in 0.028451 seconds
+  Import took 0.036550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.756807 seconds.
+  path: Assets/Prefabs/Weapons/Shotgun.prefab
+  artifactKey: Guid(cc8f1e3cfe6646148a24b4e50ded25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Shotgun.prefab using Guid(cc8f1e3cfe6646148a24b4e50ded25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52d55e8b5b07800468d7f316995580c') in 0.047753 seconds
+  Import took 0.145118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.881597 seconds.
+  path: Assets/Prefabs/Weapons/Shotgun.prefab
+  artifactKey: Guid(cc8f1e3cfe6646148a24b4e50ded25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Shotgun.prefab using Guid(cc8f1e3cfe6646148a24b4e50ded25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6990939dd73fa0d48cf2cbb1334aeb') in 0.025996 seconds
+  Import took 0.032445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.984799 seconds.
+  path: Assets/Prefabs/Weapons/Shotgun.prefab
+  artifactKey: Guid(cc8f1e3cfe6646148a24b4e50ded25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Shotgun.prefab using Guid(cc8f1e3cfe6646148a24b4e50ded25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3057ab659e638d2fc1eda67e3ed6f12e') in 0.048107 seconds
+  Import took 0.106795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.056914 seconds.
+  path: Assets/Prefabs/Weapons/Shotgun.prefab
+  artifactKey: Guid(cc8f1e3cfe6646148a24b4e50ded25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Shotgun.prefab using Guid(cc8f1e3cfe6646148a24b4e50ded25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8ca773739821cfbcd0d694a659cf32') in 0.053216 seconds
+  Import took 0.061799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.778143 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Materials/Shell.mat
+  artifactKey: Guid(2b35f1bc3af2a7d46b77b7e7c16c90de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Materials/Shell.mat using Guid(2b35f1bc3af2a7d46b77b7e7c16c90de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66666fa7a3220f293ac3291eb8aac8ae') in 0.082756 seconds
+  Import took 0.089810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.136614 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Materials
+  artifactKey: Guid(7b2091b1f6a91914f8943566d7de2227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Materials using Guid(7b2091b1f6a91914f8943566d7de2227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e60852adb88fcb5842217719fb94f3') in 0.011771 seconds
+  Import took 0.177554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.363325 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures
+  artifactKey: Guid(dea8d14207958c043bbc9451e3a93df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures using Guid(dea8d14207958c043bbc9451e3a93df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360ba9cebe911aa82ba201266f810ead') in 0.079958 seconds
+  Import took 0.120118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Shelll_Metallic.png
+  artifactKey: Guid(bd6fdfdbdb591cd459aea404f3ddd121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Shelll_Metallic.png using Guid(bd6fdfdbdb591cd459aea404f3ddd121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909e928dc5d364042339f6a3f92106c8') in 0.031064 seconds
+  Import took 0.040157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Shell_Albedo.png
+  artifactKey: Guid(372b8bada4aef87489e2a55c2032bcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Shell_Albedo.png using Guid(372b8bada4aef87489e2a55c2032bcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a11ae6781b38281ab95f24c4426335') in 0.012379 seconds
+  Import took 0.073472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Shell_Normal.png
+  artifactKey: Guid(f7e70b79ec9310e48b5946d5a5ecba0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Shell_Normal.png using Guid(f7e70b79ec9310e48b5946d5a5ecba0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14327f4d7da79e79c7a8e21ace689c74') in 0.014368 seconds
+  Import took 0.041607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.779126 seconds.
+  path: Assets/Asset Packs/Survival Carbine/Textures/Alt Colors
+  artifactKey: Guid(f6199db5f50acb44bbe4b6db37dbe7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Survival Carbine/Textures/Alt Colors using Guid(f6199db5f50acb44bbe4b6db37dbe7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659146f96c97568b1293ce3b74633cbf') in 0.013978 seconds
+  Import took 0.023512 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004622 seconds.
+Registered in 0.021931 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.988 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3018 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.6 MB.
-System memory in use after: 119.5 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3536.
-Total: 16.742800 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.136400 ms MarkObjects: 15.900300 ms  DeleteObjects: 0.390400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.074872 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.036 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3018 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.6 MB.
-System memory in use after: 119.5 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3539.
-Total: 2.376500 ms (FindLiveObjects: 0.418400 ms CreateObjectMapping: 0.135700 ms MarkObjects: 1.536100 ms  DeleteObjects: 0.285200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005241 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.784 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3018 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.7 MB.
-System memory in use after: 119.5 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3542.
-Total: 8.428700 ms (FindLiveObjects: 0.837300 ms CreateObjectMapping: 0.683800 ms MarkObjects: 5.933800 ms  DeleteObjects: 0.967400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003299 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.154 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3018 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.7 MB.
-System memory in use after: 119.6 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3019 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.9 MB.
+System memory in use after: 119.8 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3545.
-Total: 2.725800 ms (FindLiveObjects: 0.281700 ms CreateObjectMapping: 0.115200 ms MarkObjects: 1.883500 ms  DeleteObjects: 0.444700 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3545.
+Total: 2.304800 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.132300 ms MarkObjects: 1.642100 ms  DeleteObjects: 0.246300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.513673 seconds.
+  path: Assets/Prefabs/Weapons/Shotgun.prefab
+  artifactKey: Guid(cc8f1e3cfe6646148a24b4e50ded25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Shotgun.prefab using Guid(cc8f1e3cfe6646148a24b4e50ded25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f45bfb7a871c4330ae4b188922dc4d') in 0.075796 seconds
+  Import took 0.096107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.690096 seconds.
+  path: Assets/Prefabs/Weapons/Carbine 1.prefab
+  artifactKey: Guid(a643801e730dd024fb625b5c1a4db8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Carbine 1.prefab using Guid(a643801e730dd024fb625b5c1a4db8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f25b4f47a79ea0997a7122de5fac27') in 0.020578 seconds
+  Import took 0.049181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.459639 seconds.
+  path: Assets/Prefabs/Weapons/Pistol.prefab
+  artifactKey: Guid(a643801e730dd024fb625b5c1a4db8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Pistol.prefab using Guid(a643801e730dd024fb625b5c1a4db8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c917808473e7b217ad6e6d04e5c331a') in 0.025229 seconds
+  Import took 0.046412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.090468 seconds.
+  path: Assets/Prefabs/Weapons/Pistol.prefab
+  artifactKey: Guid(a643801e730dd024fb625b5c1a4db8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Pistol.prefab using Guid(a643801e730dd024fb625b5c1a4db8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3647a82ff871b5b68b23ebb798c48319') in 0.265666 seconds
+  Import took 0.271326 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007388 seconds.
+Registered in 0.002980 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.006 seconds
+- Completed reload, in  0.872 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3018 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.7 MB.
-System memory in use after: 119.6 MB.
+Unloading 3019 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.0 MB.
+System memory in use after: 119.9 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3548.
-Total: 7.819400 ms (FindLiveObjects: 0.771400 ms CreateObjectMapping: 0.285600 ms MarkObjects: 6.156700 ms  DeleteObjects: 0.597200 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3549.
+Total: 2.889800 ms (FindLiveObjects: 0.364100 ms CreateObjectMapping: 0.149400 ms MarkObjects: 2.071600 ms  DeleteObjects: 0.303500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.018783 seconds.
+Registered in 0.003134 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
+- Completed reload, in  0.852 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3018 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.7 MB.
-System memory in use after: 119.6 MB.
+Unloading 3019 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.0 MB.
+System memory in use after: 119.9 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3551.
-Total: 3.033800 ms (FindLiveObjects: 0.299400 ms CreateObjectMapping: 0.121700 ms MarkObjects: 1.797900 ms  DeleteObjects: 0.813400 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3552.
+Total: 2.829400 ms (FindLiveObjects: 0.299500 ms CreateObjectMapping: 0.117000 ms MarkObjects: 1.980500 ms  DeleteObjects: 0.431200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003044 seconds.
+Registered in 0.039546 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.915 seconds
+- Completed reload, in  2.353 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3018 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.7 MB.
-System memory in use after: 119.6 MB.
+Unloading 3019 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 119.9 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3554.
-Total: 2.652800 ms (FindLiveObjects: 0.404800 ms CreateObjectMapping: 0.131000 ms MarkObjects: 1.769900 ms  DeleteObjects: 0.345700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003578 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3018 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.7 MB.
-System memory in use after: 119.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3557.
-Total: 2.912200 ms (FindLiveObjects: 0.429600 ms CreateObjectMapping: 0.218300 ms MarkObjects: 1.922100 ms  DeleteObjects: 0.341200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006634 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.139 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3018 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.7 MB.
-System memory in use after: 119.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3560.
-Total: 2.388300 ms (FindLiveObjects: 0.277400 ms CreateObjectMapping: 0.111300 ms MarkObjects: 1.691800 ms  DeleteObjects: 0.306800 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3555.
+Total: 32.364900 ms (FindLiveObjects: 3.993700 ms CreateObjectMapping: 2.407500 ms MarkObjects: 24.106100 ms  DeleteObjects: 1.844300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

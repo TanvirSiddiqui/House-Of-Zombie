@@ -14,26 +14,31 @@ public class Weapon : MonoBehaviour
     [SerializeField] GameObject hitEffect;
     [SerializeField] Ammo ammoSlot;
     bool canShoot=true;
-    void Update()
-    {
-        if(Input.GetMouseButtonDown(0) && canShoot){
 
-           StartCoroutine(Shoot());
-        }
-    }
-
-    IEnumerator Shoot()
+    private void OnEnable()
     {
-        canShoot = false;
-        if (ammoSlot.GetCurrentAmmo()>0) {
-            ProcessRaycast();
-            PlayMuzzleFlash();
-            ammoSlot.ReduceCurrentAmmo();
-        }
-        yield return new WaitForSeconds(timeBetweenShot);
         canShoot = true;
-
     }
+    //void Update()
+    //{
+    //    if(Input.GetMouseButtonDown(0) && canShoot){
+
+    //       StartCoroutine(Shoot());
+    //    }
+    //}
+
+    //IEnumerator Shoot()
+    //{
+    //    canShoot = false;
+    //    if (ammoSlot.GetCurrentAmmo()>0) {
+    //        ProcessRaycast();
+    //        PlayMuzzleFlash();
+    //        ammoSlot.ReduceCurrentAmmo();
+    //    }
+    //    yield return new WaitForSeconds(timeBetweenShot);
+    //    canShoot = true;
+
+    //}
 
     private void PlayMuzzleFlash()
     {

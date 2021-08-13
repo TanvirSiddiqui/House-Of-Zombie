@@ -15,11 +15,11 @@ E:/Unity3D projects/House-Of-Zombie/House of Zombie
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58016
+52845
 Successfully changed project path to: E:/Unity3D projects/House-Of-Zombie/House of Zombie
 E:/Unity3D projects/House-Of-Zombie/House of Zombie
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 76.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path E:/Unity Hub/Unity Versions/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,60 +35,255 @@ Initialize mono
 Mono path[0] = 'E:/Unity Hub/Unity Versions/Unity/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity Hub/Unity Versions/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity Hub/Unity Versions/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity Hub/Unity Versions/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001252 seconds.
+Registered in 0.000839 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 11.998 seconds
+- Completed reload, in  0.874 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.128223 seconds.
+Registered in 0.003078 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.022 seconds
+- Completed reload, in  1.041 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
-Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 119.5 MB.
 System memory in use after: 119.3 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3497.
-Total: 2.380900 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.127700 ms MarkObjects: 1.669600 ms  DeleteObjects: 0.273900 ms)
+Total: 2.455000 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.159200 ms MarkObjects: 1.652100 ms  DeleteObjects: 0.309900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/PickUps
-  artifactKey: Guid(30a0a2b557afab648b57ba8fb5127381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PickUps using Guid(30a0a2b557afab648b57ba8fb5127381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fd17eef3940463d3d90cfe88ba3ce9') in 0.021175 seconds
-  Import took 0.054051 seconds .
+  path: Assets/Scripts/AmmoPickUp.cs
+  artifactKey: Guid(d223d189a18b23145a9b5acf5626e557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AmmoPickUp.cs using Guid(d223d189a18b23145a9b5acf5626e557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b28f4973185fa5f72045ec63be9589') in 0.190314 seconds
+  Import took 0.298519 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003168 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3021 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.6 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3499.
+Total: 3.231500 ms (FindLiveObjects: 0.496600 ms CreateObjectMapping: 0.227300 ms MarkObjects: 2.171600 ms  DeleteObjects: 0.334700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.493420 seconds.
+  Time since last request: 111.034765 seconds.
   path: Assets/Prefabs/PickUps/AmmoPickUp.prefab
   artifactKey: Guid(7af1d1f25d1a0b046ab7551d1ddcb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PickUps/AmmoPickUp.prefab using Guid(7af1d1f25d1a0b046ab7551d1ddcb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088a1149fcd3732195f1da68a236d8b3') in 0.058303 seconds
-  Import took 0.099812 seconds .
+Start importing Assets/Prefabs/PickUps/AmmoPickUp.prefab using Guid(7af1d1f25d1a0b046ab7551d1ddcb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a488b2606758246819f420f673489915') in 0.335914 seconds
+  Import took 0.341334 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.040338 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3022 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.6 MB.
+System memory in use after: 119.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3511.
+Total: 2.482200 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.127700 ms MarkObjects: 1.766000 ms  DeleteObjects: 0.266100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.488509 seconds.
+  Time since last request: 386.231083 seconds.
   path: Assets/Prefabs/PickUps/AmmoPickUp.prefab
   artifactKey: Guid(7af1d1f25d1a0b046ab7551d1ddcb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PickUps/AmmoPickUp.prefab using Guid(7af1d1f25d1a0b046ab7551d1ddcb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc2dec49ca7c2c6941765e96c955183') in 0.283093 seconds
-  Import took 0.302480 seconds .
+Start importing Assets/Prefabs/PickUps/AmmoPickUp.prefab using Guid(7af1d1f25d1a0b046ab7551d1ddcb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be944ba5c666b95b013dd6a930ce86b') in 0.102213 seconds
+  Import took 0.111979 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048517 seconds.
+  path: Assets/Prefabs/PickUps/AmmoPickUp.prefab
+  artifactKey: Guid(7af1d1f25d1a0b046ab7551d1ddcb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PickUps/AmmoPickUp.prefab using Guid(7af1d1f25d1a0b046ab7551d1ddcb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be944ba5c666b95b013dd6a930ce86b') in 0.011026 seconds
+  Import took 0.019306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.102747 seconds.
+  path: Assets/Prefabs/PickUps/AmmoPickUp.prefab
+  artifactKey: Guid(7af1d1f25d1a0b046ab7551d1ddcb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PickUps/AmmoPickUp.prefab using Guid(7af1d1f25d1a0b046ab7551d1ddcb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cbc25fdf94e9f33d1583cdd8006159') in 0.024405 seconds
+  Import took 0.029659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.403570 seconds.
+  path: Assets/Scripts/AmmoPickUp1.cs
+  artifactKey: Guid(d545c0eceae45e244ae8cb089adb0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AmmoPickUp1.cs using Guid(d545c0eceae45e244ae8cb089adb0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dca3d07f1adb767426f5f827e9f57bb') in 0.012242 seconds
+  Import took 0.020773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006923 seconds.
+  path: Assets/Scripts/AmmoPickUp1.cs
+  artifactKey: Guid(d545c0eceae45e244ae8cb089adb0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AmmoPickUp1.cs using Guid(d545c0eceae45e244ae8cb089adb0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dca3d07f1adb767426f5f827e9f57bb') in 0.056578 seconds
+  Import took 0.062234 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.038554 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3023 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3516.
+Total: 2.257900 ms (FindLiveObjects: 0.321600 ms CreateObjectMapping: 0.123600 ms MarkObjects: 1.522700 ms  DeleteObjects: 0.288900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003070 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3022 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3518.
+Total: 5.441400 ms (FindLiveObjects: 0.557400 ms CreateObjectMapping: 0.189700 ms MarkObjects: 4.252000 ms  DeleteObjects: 0.440100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031659 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3022 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3521.
+Total: 3.695300 ms (FindLiveObjects: 0.365800 ms CreateObjectMapping: 0.180500 ms MarkObjects: 2.819800 ms  DeleteObjects: 0.328100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.765854 seconds.
+  path: Assets/Prefabs/PickUps/AmmoPickUp.prefab
+  artifactKey: Guid(7af1d1f25d1a0b046ab7551d1ddcb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PickUps/AmmoPickUp.prefab using Guid(7af1d1f25d1a0b046ab7551d1ddcb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813783cb78c2ab2837150477efb2f2e3') in 0.127332 seconds
+  Import took 0.133238 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003392 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3022 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3525.
+Total: 2.446400 ms (FindLiveObjects: 0.286300 ms CreateObjectMapping: 0.117200 ms MarkObjects: 1.739800 ms  DeleteObjects: 0.302200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007647 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity3D projects\House-Of-Zombie\House of Zombie\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.186 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3022 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3528.
+Total: 2.336000 ms (FindLiveObjects: 0.277900 ms CreateObjectMapping: 0.120500 ms MarkObjects: 1.638800 ms  DeleteObjects: 0.298000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
